@@ -6,7 +6,12 @@ For this app, we will request data from the iTunes API.
 
 You'll use artist data from the API to display song titles, and then allow the user to select and play song previews. Here is an idea of what the [end result](musicapp.jpg) could look like, though you can customize the design however you like.
 
-Here are the steps you'll need to take in order to complete this project.
+## Part 1
+
+Create a page that displays all the albums for one of your favorite artists using the iTunes API. You will use the concepts from customer database
+and GitHub profile. 
+
+## Part 2
 
 1. Build a form that has an `<input>` where a user can type in the name of a band or an artist.
 2. When the user types their search term and presses the submit button (or presses Enter), make the search request to the API.
@@ -16,7 +21,6 @@ Here are the steps you'll need to take in order to complete this project.
 ## Product Requirements
 
 - A user can search for songs by artist or band name.
-- Validate the input so that a search request is not sent with no search term.
 - Display the search results without reloading the page.
 - The results should include song details. You must include the song title, but the data you'll get back from the API has other info you can consider including, like artist name, album title, album image, and release date.
 - The number of results you show is up to you. If no results are returned from a search, your UI should communicate this to the user in a clear way (how you do this is up to you).
