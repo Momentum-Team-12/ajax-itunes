@@ -8,7 +8,7 @@ You'll use artist data from the API to display song titles, and then allow the u
 
 ## Part 1
 
-Create a page that displays all the albums for one of your favorite artists using the iTunes API. You will use the concepts from customer database
+Create a page that displays all the songs for one of your favorite artists using the iTunes API. You will use the concepts from customer database
 and GitHub profile. 
 
 ## Part 2
